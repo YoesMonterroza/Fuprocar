@@ -32,7 +32,8 @@ export default function ResponsiveNav() {
         </button>
         <h2 className="text-primary text-center flex-grow-1 m-0"
           style={{  color: "rgb(80, 143, 235)" }}>
-          Fundación Progresista de Cartagena
+          <Link to="/" className="text-decoration-none text-primary">
+          Fundación Progresista de Cartagena</Link>
         </h2>
         <div style={{ width: "40px" }} />
       </div>
